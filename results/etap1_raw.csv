@@ -1,0 +1,721 @@
+scenario,method,forced,rep,cps_true,cps_hat,time_s,loc_error,hit,n_detected,false_pos,any_detect
+spadek 0.9->0,Binseg normal (n_bkps=1),True,0,[500],[502],0.20989689999260008,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,0,[500],[510],0.0006814999505877495,10.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,0,[500],[496],0.0010043999645859003,4.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,0,[500],[502],0.13025590009056032,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,0,[500],[510],0.001179100014269352,10.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,0,[500],[496],0.0002785000251606107,4.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,1,[500],[501],0.1250803000293672,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,1,[500],[503],0.0008203999605029821,3.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,1,[500],[500],0.0011928000021725893,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,1,[500],[501],0.26350250001996756,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,1,[500],"[263, 503]",0.0043793999357149005,3.0,1.0,2,1,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,1,[500],[500],0.00045489997137337923,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,2,[500],[500],0.20566760003566742,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,2,[500],[500],0.00042970001231878996,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,2,[500],[487],0.0002239999594166875,13.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,2,[500],[500],0.18795070005580783,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,2,[500],[500],0.0008971999632194638,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,2,[500],[487],0.00022490008268505335,13.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,3,[500],[496],0.2328055000398308,4.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,3,[500],[499],0.0004811000544577837,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,3,[500],[489],0.000721300020813942,11.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,3,[500],[496],0.19457669998519123,4.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,3,[500],"[499, 775]",0.0026157000102102757,1.0,1.0,2,1,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,3,[500],[489],0.0004428999964147806,11.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,4,[500],[492],0.32719019998330623,8.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,4,[500],[498],0.0004794999258592725,2.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,4,[500],[492],0.00020250002853572369,8.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,4,[500],[492],0.19634720007888973,8.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,4,[500],"[498, 641]",0.002375400043092668,2.0,1.0,2,1,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,4,[500],[492],0.00024319998919963837,8.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,5,[500],[500],0.2223319000331685,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,5,[500],[501],0.0005456999642774463,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,5,[500],[501],0.0002832000609487295,1.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,5,[500],[500],0.2658485999563709,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,5,[500],[501],0.0029537000227719545,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,5,[500],[501],0.00040449993684887886,1.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,6,[500],[500],0.1469617000548169,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,6,[500],[506],0.00104310002643615,6.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,6,[500],[500],0.00028170004952698946,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,6,[500],[500],0.1957098999992013,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,6,[500],[506],0.0017143998993560672,6.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,6,[500],[500],0.00038590002804994583,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,7,[500],[501],0.286362599930726,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,7,[500],[501],0.0006448999047279358,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,7,[500],[497],0.00040360004641115665,3.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,7,[500],[501],0.2402775000082329,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,7,[500],[501],0.0018789999885484576,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,7,[500],[497],0.0005366000114008784,3.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,8,[500],[502],0.22284069994930178,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,8,[500],[502],0.0006217999616637826,2.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,8,[500],[481],0.0002454000059515238,19.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,8,[500],[502],0.23396149999462068,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,8,[500],[502],0.0011857999488711357,2.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,8,[500],[481],0.00039190007373690605,19.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,9,[500],[499],0.13873690005857497,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,9,[500],[500],0.000408399966545403,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,9,[500],[496],0.00018049997743219137,4.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,9,[500],[499],0.19982119998894632,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,9,[500],[500],0.0008450000314041972,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,9,[500],[496],0.0002188000362366438,4.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,10,[500],[500],0.365248900023289,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,10,[500],[500],0.0006298000225797296,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,10,[500],[500],0.0004292000085115433,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,10,[500],[500],0.26534050004556775,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,10,[500],"[500, 678]",0.0021010999334976077,0.0,1.0,2,1,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,10,[500],[500],0.00033030007034540176,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,11,[500],[500],0.21231910004280508,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,11,[500],[506],0.0008565000025555491,6.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,11,[500],[500],0.0003533000126481056,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,11,[500],[500],0.18756530003156513,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,11,[500],[506],0.00121779995970428,6.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,11,[500],[500],0.0002533999504521489,0.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,12,[500],[497],0.1886527999304235,3.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,12,[500],[519],0.00035450002178549767,19.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,12,[500],[493],0.00022950000129640102,7.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,12,[500],[497],0.16108880005776882,3.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,12,[500],"[429, 489, 519]",0.0038594999350607395,11.0,1.0,3,1,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,12,[500],[493],0.00042179995216429234,7.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,13,[500],[505],0.17954689997714013,5.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,13,[500],[505],0.0009688000427559018,5.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,13,[500],[497],0.0004677999531850219,3.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,13,[500],[505],0.24590119998902082,5.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,13,[500],[505],0.0014553000219166279,5.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,13,[500],[497],0.00029719993472099304,3.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,14,[500],[501],0.18322260002605617,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,14,[500],[515],0.0005365000106394291,15.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,14,[500],[501],0.0002919000107795,1.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,14,[500],[501],0.24700139998458326,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,14,[500],[515],0.0007905999664217234,15.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,14,[500],[501],0.00020699994638562202,1.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,15,[500],[500],0.11459619994275272,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,15,[500],[501],0.000735800014808774,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,15,[500],[495],0.0002047999296337366,5.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,15,[500],[500],0.19706170004792511,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,15,[500],[501],0.002588600036688149,1.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,15,[500],[495],0.00026290002278983593,5.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,16,[500],[500],0.12308060005307198,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,16,[500],[500],0.00037320004776120186,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,16,[500],[490],0.00017960008699446917,10.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,16,[500],[500],0.12269680004101247,0.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,16,[500],[500],0.002863299916498363,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,16,[500],[490],0.000319099985063076,10.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,17,[500],[504],0.13303749996703118,4.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,17,[500],[508],0.0004015999147668481,8.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,17,[500],[494],0.0001841000048443675,6.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,17,[500],[504],0.12507260008715093,4.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,17,[500],[508],0.0013451999984681606,8.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,17,[500],[494],0.00034849997609853745,6.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,18,[500],[498],0.17759810003917664,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,18,[500],[500],0.0005850000306963921,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,18,[500],[498],0.00030830001924186945,2.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,18,[500],[498],0.18897120002657175,2.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,18,[500],[500],0.002698000054806471,0.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,18,[500],[498],0.0004510999424383044,2.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (n_bkps=1),True,19,[500],[501],0.19717790000140667,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (n_bkps=1),True,19,[500],[504],0.0018918999703601003,4.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (n_bkps=1),True,19,[500],[501],0.00039569998625665903,1.0,1.0,1,0,True
+spadek 0.9->0,Binseg normal (kara BIC),False,19,[500],[501],0.23772550001740456,1.0,1.0,1,0,True
+spadek 0.9->0,CUSUM kow. (test 5%),False,19,[500],[504],0.0009797000093385577,4.0,1.0,1,0,True
+spadek 0.9->0,Okno+Pearson (próg 4),False,19,[500],[501],0.0002004000125452876,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,0,[500],[500],0.19368360005319118,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,0,[500],[500],0.0009578000754117966,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,0,[500],[504],0.00037919997703284025,4.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,0,[500],[500],0.17544380004983395,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,0,[500],[500],0.0011783000081777573,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,0,[500],[504],0.0002720999764278531,4.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,1,[500],[501],0.13433470006566495,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,1,[500],[501],0.00036639999598264694,1.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,1,[500],[501],0.00017640006262809038,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,1,[500],[501],0.21993400005158037,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,1,[500],[501],0.0008096999954432249,1.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,1,[500],[501],0.00019990000873804092,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,2,[500],[502],0.12128330010455102,2.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,2,[500],[496],0.0004168000305071473,4.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,2,[500],[500],0.00020210002548992634,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,2,[500],[502],0.11808860010933131,2.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,2,[500],[496],0.0009276000782847404,4.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,2,[500],[500],0.0001993000041693449,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,3,[500],[499],0.14186990004964173,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,3,[500],[499],0.0005388000281527638,1.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,3,[500],[502],0.00028380006551742554,2.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,3,[500],[499],0.22509620001073927,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,3,[500],"[177, 499]",0.0017061000689864159,1.0,1.0,2,1,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,3,[500],[502],0.0002324999077245593,2.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,4,[500],[498],0.18039009999483824,2.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,4,[500],[498],0.0003659999929368496,2.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,4,[500],[498],0.00016840000171214342,2.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,4,[500],[498],0.179624899988994,2.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,4,[500],[498],0.0007744999602437019,2.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,4,[500],[498],0.00019320007413625717,2.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,5,[500],[500],0.1608743000542745,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,5,[500],[500],0.0005810000002384186,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,5,[500],[500],0.000569300027564168,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,5,[500],[500],0.2774178000399843,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,5,[500],[500],0.001321899937465787,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,5,[500],[500],0.0002544999588280916,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,6,[500],[500],0.22292089997790754,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,6,[500],[500],0.0008355999598279595,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,6,[500],[501],0.00043159991037100554,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,6,[500],[500],0.20226689998526126,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,6,[500],[500],0.003636099980212748,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,6,[500],[501],0.0029864999232813716,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,7,[500],[499],0.1782975000096485,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,7,[500],[495],0.0007536000339314342,5.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,7,[500],[501],0.0003176000900566578,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,7,[500],[499],0.1589224999770522,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,7,[500],[495],0.0011749999830499291,5.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,7,[500],[501],0.0002932000206783414,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,8,[500],[500],0.19605879997834563,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,8,[500],[493],0.0006664000684395432,7.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,8,[500],[493],0.0002976000541821122,7.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,8,[500],[500],0.1428829999640584,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,8,[500],[493],0.0013212000485509634,7.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,8,[500],[493],0.0002906000008806586,7.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,9,[500],[499],0.1434123000362888,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,9,[500],[498],0.0007827000226825476,2.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,9,[500],[500],0.0006086999783292413,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,9,[500],[499],0.19821390009019524,1.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,9,[500],[498],0.0017381999641656876,2.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,9,[500],[500],0.00038139999378472567,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,10,[500],[500],0.22551390004809946,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,10,[500],[500],0.00037949997931718826,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,10,[500],[500],0.00019779999274760485,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,10,[500],[500],0.2019085999345407,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,10,[500],[500],0.000937500037252903,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,10,[500],[500],0.0002308000111952424,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,11,[500],[495],0.17424309998750687,5.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,11,[500],[495],0.0005422000540420413,5.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,11,[500],[519],0.00022849999368190765,19.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,11,[500],[495],0.18371549993753433,5.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,11,[500],[495],0.001770899980328977,5.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,11,[500],[519],0.0004637000383809209,19.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,12,[500],[500],0.17076929996255785,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,12,[500],[500],0.0005364000098779798,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,12,[500],[500],0.00023140001576393843,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,12,[500],[500],0.16635010007303208,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,12,[500],[500],0.0017467000288888812,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,12,[500],[500],0.0005549000343307853,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,13,[500],[500],0.18687560001853853,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,13,[500],[500],0.0005970000056549907,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,13,[500],[506],0.00036479998379945755,6.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,13,[500],[500],0.17236070008948445,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,13,[500],[500],0.0009860999416559935,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,13,[500],[506],0.0002759000053629279,6.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,14,[500],[500],0.13619959994684905,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,14,[500],[500],0.00074970000423491,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,14,[500],[504],0.00030640000477433205,4.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,14,[500],[500],0.13010289997328073,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,14,[500],[500],0.0011688999366015196,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,14,[500],[504],0.00036780000664293766,4.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,15,[500],[500],0.1435588999884203,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,15,[500],[492],0.0004292000085115433,8.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,15,[500],[501],0.00019940000493079424,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,15,[500],[500],0.2015475999796763,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,15,[500],[492],0.0012123000342398882,8.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,15,[500],[501],0.0003993998980149627,1.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,16,[500],[500],0.23964680009521544,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,16,[500],[500],0.0003264000406488776,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,16,[500],[500],0.00016359996516257524,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,16,[500],[500],0.14762009994592518,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,16,[500],[500],0.0021671000868082047,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,16,[500],[500],0.00038350000977516174,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,17,[500],[500],0.17431640007998794,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,17,[500],[500],0.0004613000201061368,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,17,[500],[500],0.00016850000247359276,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,17,[500],[500],0.17953720001969486,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,17,[500],[500],0.0008489000611007214,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,17,[500],[500],0.00047470000572502613,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,18,[500],[500],0.16865519993007183,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,18,[500],[500],0.000542700057849288,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,18,[500],[500],0.00037349993363022804,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,18,[500],[500],0.1859738000202924,0.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,18,[500],[500],0.0014510999899357557,0.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,18,[500],[500],0.00023589993361383677,0.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (n_bkps=1),True,19,[500],[495],0.16901900002267212,5.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (n_bkps=1),True,19,[500],[493],0.0005930999759584665,7.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (n_bkps=1),True,19,[500],[508],0.0002753000007942319,8.0,1.0,1,0,True
+wzrost 0->0.9,Binseg normal (kara BIC),False,19,[500],[495],0.18556390004232526,5.0,1.0,1,0,True
+wzrost 0->0.9,CUSUM kow. (test 5%),False,19,[500],[493],0.0012510999804362655,7.0,1.0,1,0,True
+wzrost 0->0.9,Okno+Pearson (próg 4),False,19,[500],[508],0.000435299938544631,8.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,0,[500],[500],0.1985335999634117,0.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,0,[500],[500],0.00048459996469318867,0.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,0,[500],[500],0.0012987999944016337,0.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,0,[500],[500],0.16974510008003563,0.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,0,[500],[500],0.0013225000584498048,0.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,0,[500],[500],0.0006641000509262085,0.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,1,[500],[499],0.19503120006993413,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,1,[500],[499],0.0004661999410018325,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,1,[500],[498],0.00016389996744692326,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,1,[500],[499],0.24100619996897876,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,1,[500],[499],0.000860600033774972,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,1,[500],[498],0.00023209990467876196,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,2,[500],[501],0.21706819999963045,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,2,[500],[501],0.000687299994751811,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,2,[500],[501],0.0003738999366760254,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,2,[500],[501],0.19795419997535646,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,2,[500],[501],0.0007650000043213367,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,2,[500],[501],0.00016369996592402458,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,3,[500],[508],0.1141481000231579,8.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,3,[500],[508],0.00033460010308772326,8.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,3,[500],[505],0.0001860000193119049,5.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,3,[500],[508],0.11002540006302297,8.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,3,[500],[508],0.0008637999417260289,8.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,3,[500],[505],0.0001993000041693449,5.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,4,[500],[496],0.15425919997505844,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,4,[500],[496],0.0008359000785276294,4.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,4,[500],[493],0.00034030003007501364,7.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,4,[500],[496],0.15135039994493127,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,4,[500],[496],0.0014736000448465347,4.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,4,[500],[493],0.0003535000141710043,7.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,5,[500],[499],0.19611310004256666,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,5,[500],[498],0.0004882999928668141,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,5,[500],[504],0.00025379995349794626,4.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,5,[500],[499],0.16544529993552715,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,5,[500],[498],0.001369300065562129,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,5,[500],[504],0.0003038999857380986,4.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,6,[500],[501],0.18468429998029023,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,6,[500],[501],0.0005160999717190862,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,6,[500],[501],0.00023040000814944506,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,6,[500],[501],0.11286279989872128,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,6,[500],[501],0.0006848999764770269,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,6,[500],[501],0.0001735000405460596,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,7,[500],[496],0.11666409997269511,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,7,[500],[506],0.0006934000412002206,6.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,7,[500],[503],0.0003454000689089298,3.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,7,[500],[496],0.1306724000023678,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,7,[500],[506],0.0010151000460609794,6.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,7,[500],[503],0.00027879991102963686,3.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,8,[500],[499],0.18569259997457266,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,8,[500],[499],0.000568700022995472,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,8,[500],[499],0.00031690008472651243,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,8,[500],[499],0.18037789990194142,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,8,[500],[499],0.0006485000485554338,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,8,[500],[499],0.00017429993022233248,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,9,[500],[502],0.14428649994079024,2.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,9,[500],[502],0.0006939000450074673,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,9,[500],[502],0.0003146000672131777,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,9,[500],[502],0.1612235999200493,2.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,9,[500],[502],0.0007779001025483012,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,9,[500],[502],0.00019660010002553463,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,10,[500],[510],0.14297869999427348,10.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,10,[500],[510],0.00048379995860159397,10.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,10,[500],[484],0.00026919995434582233,16.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,10,[500],[510],0.12004559999331832,10.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,10,[500],[510],0.0006920000305399299,10.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,10,[500],[484],0.00016109994612634182,16.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,11,[500],[504],0.15825440001208335,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,11,[500],[504],0.000635799951851368,4.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,11,[500],[499],0.00032650004141032696,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,11,[500],[504],0.17295170004945248,4.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,11,[500],[504],0.0008193999528884888,4.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,11,[500],[499],0.00020269991364330053,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,12,[500],[501],0.11629839998204261,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,12,[500],[501],0.0003380000125616789,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,12,[500],[498],0.00016880000475794077,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,12,[500],[501],0.19039520004298538,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,12,[500],[501],0.0010246000019833446,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,12,[500],[498],0.0002250999677926302,2.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,13,[500],[498],0.14105279999785125,2.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,13,[500],[498],0.0003163000801578164,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,13,[500],[535],0.00037130003329366446,35.0,0.0,1,1,True
+zmiana znaku,Binseg normal (kara BIC),False,13,[500],[498],0.1325018999632448,2.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,13,[500],[498],0.0011677999282255769,2.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,13,[500],[535],0.00031859998125582933,35.0,0.0,1,1,True
+zmiana znaku,Binseg normal (n_bkps=1),True,14,[500],[499],0.17891410004813224,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,14,[500],[499],0.0006286000134423375,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,14,[500],[499],0.0004149000160396099,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,14,[500],[499],0.15863700001500547,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,14,[500],[499],0.0012117000296711922,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,14,[500],[499],0.0003032999811694026,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,15,[500],[507],0.21635919995605946,7.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,15,[500],[507],0.0012061001034453511,7.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,15,[500],[505],0.0009607999818399549,5.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,15,[500],[507],0.2847453000722453,7.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,15,[500],[507],0.0018860999261960387,7.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,15,[500],[505],0.0006125000072643161,5.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,16,[500],[512],0.3485757999587804,12.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,16,[500],[512],0.0006796000525355339,12.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,16,[500],[501],0.00048040004912763834,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,16,[500],[512],0.3645921000279486,12.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,16,[500],[512],0.002305199974216521,12.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,16,[500],[501],0.0007870999397709966,1.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,17,[500],[500],0.3271095999516547,0.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,17,[500],[500],0.0011654999107122421,0.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,17,[500],[500],0.00040170003194361925,0.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,17,[500],[500],0.19445119996089488,0.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,17,[500],[500],0.0010517999762669206,0.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,17,[500],[500],0.00026130001060664654,0.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,18,[500],[499],0.12074169993866235,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,18,[500],[499],0.0003217000048607588,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,18,[500],[489],0.00016609998419880867,11.0,1.0,1,0,True
+zmiana znaku,Binseg normal (kara BIC),False,18,[500],[499],0.17236229998525232,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,18,[500],[499],0.001247699954546988,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,18,[500],[489],0.00031969998963177204,11.0,1.0,1,0,True
+zmiana znaku,Binseg normal (n_bkps=1),True,19,[500],[499],0.14308569999411702,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (n_bkps=1),True,19,[500],[499],0.0005232000257819891,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (n_bkps=1),True,19,[500],[479],0.0002769000129774213,21.0,0.0,1,1,True
+zmiana znaku,Binseg normal (kara BIC),False,19,[500],[499],0.3069710999261588,1.0,1.0,1,0,True
+zmiana znaku,CUSUM kow. (test 5%),False,19,[500],[499],0.0014525000005960464,1.0,1.0,1,0,True
+zmiana znaku,Okno+Pearson (próg 4),False,19,[500],[479],0.00018149998504668474,21.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,0,[500],[272],0.21093319996725768,228.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,0,[500],[353],0.0007444999646395445,147.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,0,[500],[749],0.0003016999689862132,249.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,0,[500],[],0.12048549996688962,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,0,[500],[353],0.001249800086952746,147.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,0,[500],[],0.00029449991416186094,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,1,[500],[473],0.20375020010396838,27.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,1,[500],[501],0.0004912000149488449,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,1,[500],[501],0.00020960008259862661,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,1,[500],[],0.08688990003429353,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,1,[500],[501],0.0015143000055104494,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,1,[500],[],0.00033219996839761734,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,2,[500],[658],0.14852120005525649,158.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,2,[500],[658],0.00032970006577670574,158.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,2,[500],[895],0.0001737999264150858,395.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,2,[500],[],0.053670400055125356,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,2,[500],[658],0.0006870999932289124,158.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,2,[500],[],0.00016130006406456232,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,3,[500],[518],0.14993720001075417,18.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,3,[500],[537],0.0007942999945953488,37.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,3,[500],[514],0.00031409994699060917,14.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,3,[500],[],0.11254270002245903,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,3,[500],[537],0.0007348000071942806,37.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,3,[500],[514],0.00017850007861852646,14.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,4,[500],[501],0.10261309996712953,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,4,[500],[501],0.000319099985063076,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,4,[500],[735],0.0001666999887675047,235.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,4,[500],[],0.05606680002529174,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,4,[500],[501],0.0006844999734312296,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,4,[500],[],0.0001583000412210822,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,5,[500],[575],0.12851130007766187,75.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,5,[500],[580],0.0003160000778734684,80.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,5,[500],[593],0.00016689999029040337,93.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,5,[500],[],0.056290000095032156,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,5,[500],[580],0.001078799949027598,80.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,5,[500],[],0.00020649994257837534,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,6,[500],[495],0.1506190000800416,5.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,6,[500],[496],0.000610699993558228,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,6,[500],[468],0.0003108999226242304,32.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,6,[500],[],0.1018157999496907,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,6,[500],[496],0.0007066000252962112,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,6,[500],[],0.0001713999081403017,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,7,[500],[539],0.256379000027664,39.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,7,[500],[540],0.0007357000140473247,40.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,7,[500],[535],0.00045510008931159973,35.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,7,[500],[],0.16175069997552782,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,7,[500],[540],0.0014142999425530434,40.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,7,[500],[],0.0003494999837130308,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,8,[500],[596],0.32619440008420497,96.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,8,[500],[594],0.0011295999865978956,94.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,8,[500],[615],0.0007504000095650554,115.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,8,[500],[],0.13094300008378923,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,8,[500],[594],0.001700800028629601,94.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,8,[500],[],0.0003994000144302845,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,9,[500],[716],0.3314391999738291,216.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,9,[500],[692],0.0007036000024527311,192.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,9,[500],[720],0.00038490002043545246,220.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,9,[500],[],0.07160500006284565,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,9,[500],[692],0.0010216999799013138,192.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,9,[500],[],0.00025310006458312273,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,10,[500],[494],0.15609029994811863,6.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,10,[500],[513],0.000534999999217689,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,10,[500],[681],0.0002468000166118145,181.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,10,[500],[],0.06265249999705702,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,10,[500],[513],0.0016238000243902206,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,10,[500],[],0.0003056999994441867,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,11,[500],[499],0.1706038999836892,1.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,11,[500],[476],0.0008228999795392156,24.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,11,[500],[476],0.00033160008024424314,24.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,11,[500],[],0.11190040002111346,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,11,[500],[476],0.0014297000598162413,24.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,11,[500],[],0.00034110003616660833,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,12,[500],[487],0.15946260001510382,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,12,[500],[487],0.0006688999710604548,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,12,[500],[487],0.00031530007254332304,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,12,[500],[],0.11143839999567717,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,12,[500],[487],0.0009552999399602413,13.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,12,[500],[],0.00022320006974041462,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,13,[500],[603],0.1756050999974832,103.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,13,[500],[603],0.0007343000033870339,103.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,13,[500],[273],0.0003917999565601349,227.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,13,[500],[],0.15881400008220226,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,13,[500],[603],0.0008095999946817756,103.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,13,[500],[],0.0002066000597551465,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,14,[500],[512],0.12039950001053512,12.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,14,[500],[556],0.0004865999799221754,56.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,14,[500],[498],0.00019759999122470617,2.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,14,[500],[],0.07083069998770952,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,14,[500],[556],0.001272600027732551,56.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,14,[500],[],0.0002893999917432666,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,15,[500],[510],0.1635915000224486,10.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,15,[500],[510],0.0006795000517740846,10.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,15,[500],[500],0.0003440000582486391,0.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,15,[500],[],0.09564319998025894,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,15,[500],[510],0.0009553000563755631,10.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,15,[500],[],0.0002188999205827713,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,16,[500],[503],0.11436090001370758,3.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,16,[500],[505],0.0003826000029221177,5.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,16,[500],[395],0.00018039997667074203,105.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,16,[500],[],0.05484730005264282,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,16,[500],[505],0.0009286000858992338,5.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,16,[500],[],0.0001626000739634037,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,17,[500],[523],0.10154699999839067,23.0,0.0,1,1,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,17,[500],[523],0.00032160000409930944,23.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,17,[500],[507],0.00016189995221793652,7.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,17,[500],[],0.05424409999977797,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,17,[500],[523],0.0006701999809592962,23.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,17,[500],[],0.0001599000534042716,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,18,[500],[496],0.09926789999008179,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,18,[500],[496],0.0003306000726297498,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,18,[500],[496],0.00016649998724460602,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,18,[500],[],0.055265999981202185,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,18,[500],[496],0.0006732000038027763,4.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,18,[500],[],0.0001642000861465931,,0.0,0,0,False
+mała zmiana 0.5->0.3,Binseg normal (n_bkps=1),True,19,[500],[518],0.1008929000236094,18.0,1.0,1,0,True
+mała zmiana 0.5->0.3,CUSUM kow. (n_bkps=1),True,19,[500],[508],0.0003720000386238098,8.0,1.0,1,0,True
+mała zmiana 0.5->0.3,Okno+Pearson (n_bkps=1),True,19,[500],[854],0.00016549997963011265,354.0,0.0,1,1,True
+mała zmiana 0.5->0.3,Binseg normal (kara BIC),False,19,[500],[],0.06143879995215684,,0.0,0,0,False
+mała zmiana 0.5->0.3,CUSUM kow. (test 5%),False,19,[500],[],0.00043809995986521244,,0.0,0,0,False
+mała zmiana 0.5->0.3,Okno+Pearson (próg 4),False,19,[500],[],0.00017740007024258375,,0.0,0,0,False
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,0,[500],[454],0.11217840004246682,46.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,0,[500],[523],0.0005765999667346478,23.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,0,[500],[523],0.0018381000263616443,23.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,0,[500],[454],0.13456379994750023,46.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,0,[500],"[451, 523]",0.002112400019541383,23.0,0.0,2,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,0,[500],[523],0.00032789993565529585,23.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,1,[500],[459],0.18362979998346418,41.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,1,[500],[512],0.00032210000790655613,12.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,1,[500],[478],0.0001620999537408352,22.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,1,[500],[459],0.09795249998569489,41.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,1,[500],"[444, 512]",0.0012716999044641852,12.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,1,[500],[478],0.00016360008157789707,22.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,2,[500],[463],0.14998450002167374,37.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,2,[500],[488],0.0006609000265598297,12.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,2,[500],[463],0.00034199992660433054,37.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,2,[500],[463],0.2077184000518173,37.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,2,[500],"[402, 488]",0.004011900047771633,12.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,2,[500],[463],0.000332699972204864,37.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,3,[500],[483],0.16481089999433607,17.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,3,[500],[526],0.0007040000054985285,26.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,3,[500],[485],0.00026920007076114416,15.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,3,[500],[483],0.18766990001313388,17.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,3,[500],"[455, 526]",0.0013228999450802803,26.0,0.0,2,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,3,[500],[485],0.00016759999562054873,15.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,4,[500],[486],0.3566021000733599,14.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,4,[500],[531],0.00040769996121525764,31.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,4,[500],[484],0.00020140002015978098,16.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,4,[500],[486],0.1298765999963507,14.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,4,[500],"[456, 531]",0.0019505999516695738,31.0,0.0,2,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,4,[500],[484],0.00031910010147839785,16.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,5,[500],[503],0.3473055000649765,3.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,5,[500],[514],0.0006607999093830585,14.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,5,[500],[507],0.00037050002720206976,7.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,5,[500],[503],0.24657309998292476,3.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,5,[500],"[437, 514]",0.0012734000338241458,14.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,5,[500],[507],0.00017529993783682585,7.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,6,[500],[475],0.22595400002319366,25.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,6,[500],[509],0.0003402000293135643,9.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,6,[500],[475],0.00017170002683997154,25.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,6,[500],[475],0.3814461000729352,25.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,6,[500],"[459, 509]",0.004290400072932243,9.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,6,[500],[475],0.0003858000272884965,25.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,7,[500],[476],0.3097935999976471,24.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,7,[500],[476],0.0009663000237196684,24.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,7,[500],[455],0.0002682000631466508,45.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,7,[500],[476],0.14893729996401817,24.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,7,[500],[476],0.0010630999458953738,24.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,7,[500],[455],0.0004996999632567167,45.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,8,[500],[479],0.14737119991332293,21.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,8,[500],[501],0.0005896000657230616,1.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,8,[500],[456],0.0007552000461146235,44.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,8,[500],[479],0.2871496999869123,21.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,8,[500],"[435, 501]",0.0013885999796912074,1.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,8,[500],[456],0.0003793999785557389,44.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,9,[500],[470],0.1616872000740841,30.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,9,[500],[519],0.0004857999738305807,19.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,9,[500],[494],0.0005286000669002533,6.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,9,[500],[470],0.1367294000228867,30.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,9,[500],"[391, 470, 519]",0.0018538000294938684,19.0,1.0,3,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,9,[500],[494],0.00020739994943141937,6.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,10,[500],[480],0.16692210000474006,20.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,10,[500],[499],0.0004951999289914966,1.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,10,[500],[480],0.00022060004994273186,20.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,10,[500],[480],0.20557270001154393,20.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,10,[500],"[453, 499]",0.0027588000521063805,1.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,10,[500],[480],0.0004141998942941427,20.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,11,[500],[464],0.2177978000836447,36.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,11,[500],[513],0.000817399937659502,13.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,11,[500],[464],0.0004304000176489353,36.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,11,[500],[464],0.16086379997432232,36.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,11,[500],"[464, 513]",0.0010785999475046992,13.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,11,[500],[464],0.00018350000027567148,36.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,12,[500],[454],0.12178960000164807,46.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,12,[500],[493],0.000530300079844892,7.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,12,[500],[454],0.00026380002964287996,46.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,12,[500],[454],0.13513330009300262,46.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,12,[500],"[422, 493]",0.0012408000184223056,7.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,12,[500],[454],0.0001577000366523862,46.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,13,[500],[490],0.12320590007584542,10.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,13,[500],[490],0.0003626999678090215,10.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,13,[500],[489],0.00016329996287822723,11.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,13,[500],[490],0.2560247000074014,10.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,13,[500],"[281, 438, 490]",0.005568200023844838,10.0,1.0,3,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,13,[500],[489],0.0010492999572306871,11.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,14,[500],[467],0.22932349995244294,33.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,14,[500],[475],0.0007772999815642834,25.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,14,[500],[468],0.0003712000325322151,32.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,14,[500],[467],0.17770789994392544,33.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,14,[500],"[475, 820]",0.0025313999503850937,25.0,0.0,2,2,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,14,[500],[468],0.0006975999567657709,32.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,15,[500],[465],0.3662654999643564,35.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,15,[500],[488],0.0014813999878242612,12.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,15,[500],[465],0.0007662000134587288,35.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,15,[500],[465],0.27114850003272295,35.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,15,[500],[488],0.0007088000420480967,12.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,15,[500],[465],0.00017929996829479933,35.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,16,[500],[489],0.1664193000178784,11.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,16,[500],[489],0.0008743000216782093,11.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,16,[500],[466],0.00043809995986521244,34.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,16,[500],[489],0.24698119994718581,11.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,16,[500],[489],0.0021948000648990273,11.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,16,[500],[466],0.00040040002204477787,34.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,17,[500],[471],0.31152149999979883,29.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,17,[500],[492],0.0014349999837577343,8.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,17,[500],[471],0.0005637999856844544,29.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,17,[500],[471],0.2529672000091523,29.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,17,[500],"[452, 492]",0.0022258999524638057,8.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,17,[500],[471],0.00034390005748718977,29.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,18,[500],[477],0.32078119996003807,23.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,18,[500],[522],0.0005290000699460506,22.0,0.0,1,1,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,18,[500],[483],0.0002145000034943223,17.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,18,[500],[477],0.32351110002491623,23.0,0.0,1,1,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,18,[500],"[159, 463, 522]",0.00286250002682209,22.0,0.0,3,3,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,18,[500],[483],0.0003603999502956867,17.0,1.0,1,0,True
+stopniowa 0.9->0,Binseg normal (n_bkps=1),True,19,[500],[504],0.20994039997458458,4.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (n_bkps=1),True,19,[500],[509],0.0007512000156566501,9.0,1.0,1,0,True
+stopniowa 0.9->0,Okno+Pearson (n_bkps=1),True,19,[500],[472],0.0003616000758484006,28.0,0.0,1,1,True
+stopniowa 0.9->0,Binseg normal (kara BIC),False,19,[500],[504],0.2330862000817433,4.0,1.0,1,0,True
+stopniowa 0.9->0,CUSUM kow. (test 5%),False,19,[500],"[253, 509]",0.0023807999677956104,9.0,1.0,2,1,True
+stopniowa 0.9->0,Okno+Pearson (próg 4),False,19,[500],[472],0.000382099999114871,28.0,0.0,1,1,True
+brak zmiany (H0),Binseg normal (n_bkps=1),True,0,[],[128],0.1962209000485018,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,0,[],[580],0.0003779999678954482,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,0,[],[580],0.00018720002844929695,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,0,[],[],0.08338489988818765,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,0,[],[],0.0008542999858036637,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,0,[],[],0.0004015000304207206,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,1,[],[854],0.23479350004345179,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,1,[],[512],0.0006661999505013227,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,1,[],[512],0.0003497001016512513,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,1,[],[],0.12361240002792329,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,1,[],[],0.0015472000231966376,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,1,[],[],0.0007593999616801739,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,2,[],[142],0.21010660007596016,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,2,[],[413],0.0005704999202862382,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,2,[],[106],0.00029349990654736757,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,2,[],[],0.1082313999067992,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,2,[],[],0.0004194999346509576,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,2,[],[],0.00022929999977350235,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,3,[],[113],0.22179660003166646,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,3,[],[615],0.0006908000214025378,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,3,[],[752],0.000385599909350276,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,3,[],[],0.08272860001306981,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,3,[],[],0.0005419999361038208,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,3,[],[],0.00018229999113827944,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,4,[],[294],0.1580054999794811,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,4,[],[856],0.00040959997568279505,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,4,[],[441],0.0002071999479085207,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,4,[],[],0.07711870002094656,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,4,[],[],0.0005879999371245503,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,4,[],[],0.0003098000306636095,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,5,[],[365],0.17900240002200007,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,5,[],[707],0.000825099996291101,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,5,[],[212],0.00032890005968511105,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,5,[],[],0.11908780003432184,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,5,[],[],0.00077479996252805,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,5,[],[],0.0003798999823629856,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,6,[],[94],0.2512360999826342,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,6,[],[415],0.0008489000611007214,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,6,[],[102],0.0005032999906688929,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,6,[],[],0.23994859994854778,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,6,[],[],0.0005074000218883157,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,6,[],[],0.0003616999601945281,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,7,[],[103],0.22020570002496243,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,7,[],[314],0.0007812000112608075,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,7,[],[541],0.00038330000825226307,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,7,[],[],0.24328669998794794,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,7,[],[],0.001780299935489893,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,7,[],[],0.0005912999622523785,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,8,[],[832],0.21270349994301796,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,8,[],[258],0.00033270008862018585,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,8,[],[710],0.0001759000588208437,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,8,[],[],0.13149969989899546,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,8,[],[],0.0008438000222668052,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,8,[],[],0.0003966999938711524,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,9,[],[30],0.1804697000188753,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,9,[],[291],0.000710100051946938,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,9,[],[439],0.0003974999999627471,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,9,[],[],0.19237649999558926,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,9,[],[],0.00041229999624192715,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,9,[],[],0.00021900003775954247,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,10,[],[170],0.32384530000854284,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,10,[],[418],0.0006930999225005507,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,10,[],[326],0.0003618999617174268,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,10,[],[],0.10866589995566756,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,10,[],[],0.00043720006942749023,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,10,[],[],0.00022579997312277555,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,11,[],[839],0.3025878000771627,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,11,[],[716],0.0006663999520242214,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,11,[],[582],0.00021189998369663954,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,11,[],[],0.09576759999617934,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,11,[],[716],0.002395500079728663,,,1,1,True
+brak zmiany (H0),Okno+Pearson (próg 4),False,11,[],[],0.0004339999286457896,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,12,[],[321],0.23671169998124242,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,12,[],[637],0.0005504000000655651,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,12,[],[261],0.0002614998957142234,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,12,[],[],0.08733339991886169,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,12,[],[],0.0006924000335857272,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,12,[],[],0.0005187999922782183,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,13,[],[253],0.21858740004245192,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,13,[],[336],0.0007335999980568886,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,13,[],[111],0.00036429997999221087,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,13,[],[],0.11708080000244081,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,13,[],[336],0.0017302000196650624,,,1,1,True
+brak zmiany (H0),Okno+Pearson (próg 4),False,13,[],[],0.0004130000015720725,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,14,[],[71],0.34279799996875226,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,14,[],[673],0.0005853999173268676,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,14,[],[495],0.00031239993404597044,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,14,[],[],0.11048519995529205,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,14,[],[],0.0005674000130966306,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,14,[],[],0.000291300006210804,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,15,[],[140],0.1285873999586329,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,15,[],[503],0.00031319994013756514,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,15,[],[248],0.0001677999971434474,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,15,[],[],0.06836420006584376,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,15,[],[],0.0005395000334829092,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,15,[],[],0.00029800005722790956,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,16,[],[925],0.12833710003178567,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,16,[],[314],0.0004588000010699034,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,16,[],[884],0.00020359992049634457,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,16,[],[],0.08816759998444468,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,16,[],[],0.0005125000607222319,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,16,[],[],0.0002586999908089638,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,17,[],[914],0.20339649997185916,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,17,[],[556],0.0008445000275969505,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,17,[],[900],0.00033850001636892557,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,17,[],[],0.10454470000695437,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,17,[],[],0.0012055999832227826,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,17,[],[],0.00048259994946420193,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,18,[],[676],0.1810045000165701,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,18,[],[681],0.0003364000003784895,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,18,[],[178],0.0012549000093713403,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,18,[],[],0.05696219997480512,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,18,[],[],0.00035640003625303507,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,18,[],[],0.00019679998513311148,,,0,0,False
+brak zmiany (H0),Binseg normal (n_bkps=1),True,19,[],[47],0.22299129993189126,,,1,1,True
+brak zmiany (H0),CUSUM kow. (n_bkps=1),True,19,[],[706],0.0006157000316306949,,,1,1,True
+brak zmiany (H0),Okno+Pearson (n_bkps=1),True,19,[],[706],0.00039080006536096334,,,1,1,True
+brak zmiany (H0),Binseg normal (kara BIC),False,19,[],[],0.1280595000134781,,,0,0,False
+brak zmiany (H0),CUSUM kow. (test 5%),False,19,[],[],0.000546199968084693,,,0,0,False
+brak zmiany (H0),Okno+Pearson (próg 4),False,19,[],[],0.0003478000871837139,,,0,0,False
